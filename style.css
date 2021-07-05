@@ -1,0 +1,71 @@
+/* All pages */
+body, html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  /* font-weight: bold; */
+  line-height: 2;
+}
+
+/* Navigation bar all pages */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #303C6C;
+  /* align-items: flex-end; */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  /* color: #D2FDFF; */
+}
+
+.nav-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.nav-menu li:not(:first-child) {
+  margin-left: 0.625rem;
+}
+
+.nav-menu li a {
+  color: #F4976C;
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+}
+
+/* footer all pages */
+.footer {
+  padding-top: 1.25rem;
+  flex-shrink: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #F4976C;
+  background: #303C6C;
+  text-align: center;
+}
+
+/* Contents all pages */
+article{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.color1{
+  background-color: #f6f7fb;
+}
+.color2{
+  background-color: #ebedf6;
+}
+h1{
+  color: #F4976C;
+}
+h3{
+  color:#303C6C;
+}
